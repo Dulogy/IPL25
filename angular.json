@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ipl-25:build:production"
+              "buildTarget": "ipl-25:build:production"
             },
             "development": {
-              "browserTarget": "ipl-25:build:development"
+              "buildTarget": "ipl-25:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ipl-25:build"
+            "buildTarget": "ipl-25:build"
           }
         },
         "test": {
